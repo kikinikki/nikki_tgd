@@ -1,4 +1,4 @@
-﻿@font-face { font-family: 'Atomy-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Atomy-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Atomy-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Atomy-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'GyeonggiBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
 
@@ -27,6 +27,8 @@ font-family : 'GyeonggiBatang' ;
 
 body {
 		background-color: var(--bgcolor);
+		background-image: var(--j-bg1);
+		background-attachment: fixed;
     	height: auto !important;
 }
 /* 순위뱃지 */
@@ -77,10 +79,10 @@ span.a-badge{
 	margin-top: 2px;
 }
 
-/* 인기글 별모양 
+
 span.a-badge i.fa.fa-star{
 	content:url("https://cdn.discordapp.com/attachments/591117492471201794/591522757817139203/king13.png");
-*/
+
 	
 /* 인기글 버튼 */
 #article-list #article-list-menu>.btn.best {
