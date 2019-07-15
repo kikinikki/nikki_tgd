@@ -26,7 +26,8 @@ font-family : 'GyeonggiBatang' ;
 /* 배경*/
 
 body {
-		background-color: var(--bgcolor);
+		background: linear-gradient(to bottom, #f7e6ff, #ffffff);
+
     	height: auto !important;
 }
 /* 순위뱃지 */
