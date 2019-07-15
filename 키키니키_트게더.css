@@ -17,9 +17,10 @@ font-family : 'GyeonggiBatang' ;
 	--backcolor: #f9ebff;
 
 
-	--img-logo: url("");//키게더(수정)
-	--img-gotop: url("");//탑 이동 아이콘(수정)
-	--img-connect: url("");//키수단 아이콘(수정)
+	--img-logo: url("https://github.com/kikinikki/nikki_tgd/blob/master/6d8b9f04f05c0f82.png
+");
+	--img-gotop: url("https://github.com/kikinikki/nikki_tgd/blob/master/43e5d1f23a5d0d5c.png");
+	--img-connect: url("https://github.com/kikinikki/nikki_tgd/blob/master/15_.png");
 }
 
 /* 배경*/
@@ -42,7 +43,7 @@ body {
 
 #board-info #viewers-area #viewers:before {
 
-    content: "키키네 키수단  ";
+    content: "키수단  ";
 	cursor: text;
 
 }
@@ -297,9 +298,11 @@ box-shadow: 3px 3px 3px #00000050;
     background-color: #fff0d9;
 
 }
-/* 메인공지 그림 (수정)*/
+/* 메인공지 그림 
 #article-list-row-22787811{
 	background-image: url("") !important;
+
+*/
 
 }
 /* 인기 배경색 */
