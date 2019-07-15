@@ -17,7 +17,6 @@ font-family : 'GyeonggiBatang' ;
 	--j-color4: #7a7979;
 	--bgcolor: #c04aff;
 
-	--j-bg1: url("https://jamgether.github.io/CSS/img/j_bg.png");
 	--img-logo: url("https://github.com/kikinikki/nikki_tgd/blob/master/6d8b9f04f05c0f82.png");
 	--img-totop: url("https://github.com/kikinikki/nikki_tgd/blob/master/43e5d1f23a5d0d5c.png");
 	--img-connect: url("https://github.com/kikinikki/nikki_tgd/blob/master/15_.png");
@@ -27,9 +26,6 @@ font-family : 'GyeonggiBatang' ;
 
 body {
 		background-color: var(--bgcolor);
-		background-image: var(--j-bg1);
-		background-attachment: fixed;
-    	height: auto !important;
 }
 /* 순위뱃지 */
 .badge{
